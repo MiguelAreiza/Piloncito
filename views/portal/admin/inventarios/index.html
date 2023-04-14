@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tio Lucho</title>
+    <link rel="shortcut icon" href="https://miguelareiza.github.io/TioLucho/assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="base">
+        <div class="navBar">
+            <div class="left">
+                <img class="imageLogo" id="LogoHome" src="../../../../assets/images/Logo.png" alt="Logo" draggable="false">
+                <label class="titleRoute" id="nameRoute"></label>
+            </div>
+            <div class="rigth">
+                <label class="titleName" id="nameUser"></label>
+                <button class="btnMenu" id="userMenu"></button>
+            </div>            
+        </div>
+        <div class="pageContent">            
+            <button class="btnBack" id="btnBack"></button>
+            <button class="btnAdd" id="btnAddInventory"></button>
+            <label class="titleInventories">inventarios</label>
+            <div id="gridInventories">
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contactUs">
+                <button type="button" class="facebook"></button>
+                <button type="button" class="instagram"></button>
+                <button type="button" class="whatsApp"></button>
+            </div>
+            <div class="copyRight">
+                &#169 Miguel Areiza 2023 all rights reserved
+            </div>
+        </div>
+    </div>
+    <div id="notifications">
+    </div>
+    <div class="modal">
+        <a class="closeModal"></a>
+        <form id="formInventory">
+            <label class="titleForm">Registro inventario</label>
+            <div class="fieldForm">
+                <label class="titleFieldForm">Usuario</label>
+                <select class="inputFieldForm name" id="userFk" required>
+                </select>
+            </div>
+            <div class="fieldForm">
+                <label class="titleFieldForm">Producto</label>
+                <select class="inputFieldForm product" id="productFk" required>
+                </select>
+            </div>
+            <div class="fieldForm">
+                <label class="titleFieldForm">Cargue</label>
+                <input id="intLoad" class="inputFieldForm cant" min="0" type="number" placeholder="Cargue" required>
+            </div>
+            <div class="fieldForm">
+                <label class="titleFieldForm">Stock</label>
+                <input id="intStock" class="inputFieldForm cant" min="0" type="number" placeholder="Stock" disabled required>
+            </div>            
+            <div class="fieldForm">
+                <label class="titleFieldForm">Recargue</label>
+                <input id="intAdd" class="inputFieldForm cant" min="0" type="number" placeholder="Recargue">
+            </div>
+            <div class="contBtn">
+                <button class="btnLarge" type="submit">Guardar</button>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Kendo grid -->
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2022.3.1109/styles/kendo.default-main.min.css">
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/kendo.all.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/messages/kendo.messages.es-ES.min.js"></script>
+    
+    <!-- Generales -->
+    <script src="../../../../js/General.js"></script>
+    <link rel="stylesheet" href="../../../../styles/General.css">
+    
+    <!-- Propios -->
+    <script src="../../../../js/admin/inventarios.js"></script>
+    <link rel="stylesheet" href="../../../../styles/admin/inventarios.css">
+
+</body>
+</html>

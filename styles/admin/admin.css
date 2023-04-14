@@ -1,0 +1,57 @@
+/* Estilos del pagecontent */
+.pageContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titleCard{
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titleCard > label{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 130px;
+    height: 130px;
+    margin: .5rem;
+    background: var(--secondary);
+    border-radius: 2vh;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .6s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: inset 0 0 100px #0005;
+}
+.card > img{
+    width: 75px;
+    height: 75px;
+}
+.card > label{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 700;
+}

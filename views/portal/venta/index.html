@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tio Lucho</title>
+    <link rel="shortcut icon" href="https://miguelareiza.github.io/TioLucho/assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="base">
+        <div class="navBar">
+            <div class="left">
+                <img class="imageLogo" id="LogoHome" src="../../../assets/images/Logo.png" alt="Logo" draggable="false">
+                <label class="titleRoute" id="nameRoute"></label>
+            </div>
+            <div class="rigth">
+                <label class="titleName" id="nameUser"></label>
+                <button class="btnMenu" id="userMenu"></button>
+            </div>            
+        </div>
+        <div class="pageContent">            
+            <button class="btnBack" id="btnBack"></button>
+            <label class="titleSale">Registrar venta</label>
+            <select id="strClient" disabled>
+            </select>
+            <div class="formSale">
+                <div class="headerForm">
+                    <label>Producto</label>
+                    <label>Venta</label>
+                    <label>Cambio</label>
+                    <label>Total</label>
+                </div>
+                <div class="bodyForm">
+                    <div id="records">               
+                    </div>
+                    <form class="input" id="formSale">
+                        <div class="inputField">
+                            <select id="strProduct" autocomplete="off" required>
+                            </select>
+                        </div>
+                        <div class="inputField">
+                            <input id="IntCantV" type="number" min="1" placeholder="Cantidad" autocomplete="off" required>
+                        </div>
+                        <div class="inputField">
+                            <input id="IntCantC" type="number" min="0" value="0" placeholder="Cantidad" autocomplete="off" required>
+                        </div>
+                        <div class="inputField">
+                            <input id="IntTotal" type="text" placeholder="Total" autocomplete="off" disabled>
+                        </div>
+                        <button type="submit" id="btnAdd">Agregar</button>
+                    </form>
+                </div>
+                <div class="footerForm">
+                    <label id="totalInvoice">$ 0</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btnFormSale" id="btnPrint">Imprimir</button>
+                <button type="button" class="btnFormSale" id="btnSave">Guardar</button>
+                <button type="button" class="btnFormSale" id="btnCancel">Cancelar</button>
+            </div>
+            <form id="notSale">
+                <div class="fieldForm">
+                    <label class="titleFieldForm">No compra</label>
+                    <input id="blNotSale" class="inputFieldForm" type="checkbox">
+                </div>
+                <div class="fieldForm" id="ReasonField">
+                    <label class="titleFieldForm">Motivo</label>
+                    <select class="inputFieldForm reason" id="reasonFk" required>
+                        <option value="">Motivo</option>
+                        <option value="Cerrado">Cerrado</option>
+                        <option value="Con inventario">Con inventario</option>
+                        <option value="Sin dinero">Sin dinero</option>
+                        <option value="Inconforme">Inconforme</option>
+                        <option value="Cerrado definitivo">Cerrado definitivo</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="btnNotificate" type="submit" class="btnFormSale" >Notificar</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="contactUs">
+                <button type="button" class="facebook"></button>
+                <button type="button" class="instagram"></button>
+                <button type="button" class="whatsApp"></button>
+            </div>
+            <div class="copyRight">
+                &#169 Miguel Areiza 2023 all rights reserved
+            </div>
+        </div>
+    </div>
+    <div id="notifications">
+    </div>    
+    <div id="reader">
+    </div>
+    <audio id="audioQr" src="../../../assets/sounds/barcode.wav"></audio>
+
+    <!-- Generador y lector de QR -->
+    <script src="https://reeteshghimire.com.np/wp-content/uploads/2021/05/html5-qrcode.min_.js"></script>
+
+    <!-- Generales -->
+    <script src="../../../js/General.js"></script>
+    <link rel="stylesheet" href="../../../styles/General.css">
+    
+    <!-- Propios -->
+    <script src="../../../js/venta.js"></script>
+    <link rel="stylesheet" href="../../../styles/venta.css">
+    
+</body>
+</html>
