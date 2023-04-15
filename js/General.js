@@ -2,15 +2,15 @@
 function Redirect() {
 
     this.Facebook = () => {
-        window.open('https://www.facebook.com');
+        window.open('https://www.facebook.com/miguelangel.areizaberrio/');
     }
 
     this.Instagram = () => {
-        window.open('https://www.instagram.com');
+        window.open('https://www.instagram.com/areizam11/');
     }
 
     this.WhatsApp = () => {
-        window.open('https://api.whatsapp.com/send?phone=573137593407&text=¡Quiero contactar con tío lucho!');        
+        window.open('https://api.whatsapp.com/send?phone=573245026814&text=¡Quiero cotizar un producto digital!');        
     }
     
 }
@@ -141,13 +141,7 @@ function GetUser() {
     
     this.Id = (sessionStorage.AppUser) ? JSON.parse(sessionStorage.AppUser).Id : '';
 
-    this.RoleId = (sessionStorage.AppUser) ? JSON.parse(sessionStorage.AppUser).RoleFk : '';
-
-    this.RouteId = (sessionStorage.AppUser) ? JSON.parse(sessionStorage.AppUser).RouteFk : '';
-
     this.NameUser = (sessionStorage.AppUser) ? JSON.parse(sessionStorage.AppUser).StrName : '';
-
-    this.NameRoute = (sessionStorage.AppUser) ? JSON.parse(sessionStorage.AppUser).StrRoute : '';
 
 }
 

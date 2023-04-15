@@ -53,6 +53,7 @@
     cursor: pointer;
 }
 #btnMenu{
+    background: transparent;
     background-image: url('../assets/images/Menu.png');
     background-repeat: no-repeat;
     background-size: 50px;
@@ -63,7 +64,7 @@
     transition: .6s;
 }
 #btnMenu:hover{
-    rotate: 810deg;
+    rotate: 450deg;
 }
 .center > .title{
     display: block;
