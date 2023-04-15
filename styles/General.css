@@ -41,6 +41,22 @@
     align-items: center;
     padding: 10px 0;
 }
+.center > .title{
+    display: block;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.center > .subTitle{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--optRed);
+    text-transform: uppercase;
+}
 .rigth{
     min-width: 80px;
     height: 100%;
@@ -66,21 +82,38 @@
 #btnMenu:hover{
     rotate: 450deg;
 }
-.center > .title{
-    display: block;
+#menu{
     width: 100%;
-    font-size: 2.5rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-transform: capitalize;
+    height: calc(100vh - 90px);
+    background: var(--secondary);
+    position: fixed;
+    top: 90px;
+    left: 0;
 }
-.center > .subTitle{
+.optMenu{
+    display: block;
+    width: 280px;
+    margin: auto;
+    background: transparent;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 2px solid #00000080;
+    padding: 3vh 1vh;
+}
+#menu > label{
     display: block;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    color: var(--optRed);
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin: 8vh 0 3vh;
+    text-align: center;
+}
+#language{
+    display: block;
+    margin: auto;
 }
 
 /* Estilos del pagecontent */
