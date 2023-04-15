@@ -158,10 +158,43 @@ var getUser = new GetUser();
 
 $('.facebook').click( () => {
     redirect.Facebook()
-})
+});
+
 $('.instagram').click( () => {
     redirect.Instagram()
-})
+});
+
 $('.whatsApp').click( () => {
     redirect.WhatsApp()
-})
+});
+
+$('#btnMenu').click( () => {
+
+    
+    if ($('#menu').css('display') == 'none') {
+        
+        $('#btnMenu').css('rotate', '450deg');
+        
+        $('#menu').show();
+
+        setTimeout(() => {
+            
+            $('#menu').css({'height':'calc(100vh - 90px)'});
+
+        }, 100);
+        
+    } else {
+        
+        $('#btnMenu').css('rotate', '0deg');
+
+        $('#menu').css({'height':'0'});
+        
+        setTimeout(() => {
+            
+            $('#menu').hide();
+
+        }, 1100);
+
+    }
+
+});
