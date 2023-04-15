@@ -82,6 +82,7 @@
 
 /* Estilos del pagecontent */
 .pageContent{
+    background: var(--secondary);
     padding: calc(90px + 1rem) 1rem 1rem;
     min-height: calc(100vh - 80px);
 }
