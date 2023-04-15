@@ -97,6 +97,7 @@
     width: 280px;
     margin: auto;
     background: transparent;
+    color: var(--principal);
     font-size: 2rem;
     font-weight: 900;
     text-transform: capitalize;
