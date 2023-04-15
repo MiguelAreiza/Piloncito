@@ -5,13 +5,57 @@
     justify-content: center;
     align-items: center;
 }
-.logo{
+.section{
     width: 100%;
     text-align: center;
+    margin: 1vh 0;
 }
 .logo > img{
     max-width: 300px;
 }
-
-
-
+.titleInfo{
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1vh;
+}
+.info{
+    font-size: 2rem;
+}
+.btnLarge{
+    display: block;
+    margin: 4vh auto;
+    width: 300px;
+    background: var(--optRed);
+    background-image: url('../assets/images/icons/Chevrons.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2vh;
+    font-size: 1.7rem;
+    padding: 1.5vh 50px 1.5vh 1.5vh;
+    transition: .6s;
+    cursor: pointer;
+}
+.btnLarge:hover{
+    transform: scale(1.05);
+}
+.address > img{
+    width: 300px;    
+    height: 300px;
+    transition: .6s;
+    cursor: pointer;
+}
+.contact > img{
+    width: 80px;
+    height: 80px;
+    transition: .6s;
+    cursor: pointer;
+    margin: 2vh 0;
+}
+.address > img:hover, .contact > img:hover{
+    transform: scale(1.1);
+}

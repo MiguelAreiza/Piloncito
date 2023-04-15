@@ -71,6 +71,7 @@
     font-size: 2.5rem;
     font-weight: 900;
     letter-spacing: 1px;
+    text-transform: capitalize;
 }
 .center > .subTitle{
     display: block;
@@ -78,6 +79,7 @@
     font-size: 1rem;
     font-weight: 900;
     color: var(--optRed);
+    text-transform: uppercase;
 }
 
 /* Estilos del pagecontent */
