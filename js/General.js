@@ -198,3 +198,29 @@ $('#btnMenu').click( () => {
     }
 
 });
+
+$('#language').click( (e) => {
+    
+    if (sessionStorage.language == 'ES' || !sessionStorage.language) {
+
+        e.target.src = './assets/images/LanguageEN.png';
+
+        let lib = new google.translate.TranslateService();
+        lib.translatePage('es', 'en', function () {});
+
+        toastr.Success('Translate to english');
+        sessionStorage.setItem('language', 'EN');
+        
+    } else {
+        
+        e.target.src = './assets/images/LanguageES.png';
+        
+        let lib = new google.translate.TranslateService();
+        lib.translatePage('en', 'es', function () {});
+        
+        toastr.Success('Traducción a español');
+        sessionStorage.setItem('language', 'ES');
+
+    }
+
+});
