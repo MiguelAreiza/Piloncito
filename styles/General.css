@@ -81,7 +81,7 @@ body::-webkit-scrollbar{
     height: 50px;
     border: none;
     cursor: pointer;
-    transition: .6s;
+    transition: .6s ease-out;
 }
 #menu{
     display: none;

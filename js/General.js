@@ -180,7 +180,7 @@ $('#btnMenu').click( () => {
     
     if ($('#menu').css('display') == 'none') {
         
-        $('#btnMenu').css('rotate', '450deg');
+        $('#btnMenu').css('rotate', '270deg');
         
         $('#menu').show();
         
