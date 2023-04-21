@@ -130,116 +130,6 @@
     min-height: calc(100vh - 80px);
 }
 
-/* Estilos del modal */
-/* .modal{
-    display: none;
-    width: 80vw;
-    max-height: 80vh;
-    position: fixed;
-    top: 10vh;
-    left: 10vw;
-    z-index: 9999;
-    background: #fff;
-    border-radius: 2vh;
-    box-shadow: 0 0 6px #777;
-    contain: content;
-    overflow-y: scroll;
-}
-.modal::-webkit-scrollbar{
-    width: 0;
-}
-.closeModal{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background-image: url('../assets/images/toastr/Error.png');
-    background-size: 30px;
-    cursor: pointer;
-}
-.modal > form{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-.titleForm{
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 2vh;
-}
-.fieldForm{
-    width: 45%;
-    min-width: 200px;
-    margin: 1vh auto;
-}
-.titleFieldForm{
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-.inputFieldForm{
-    width: 100%;
-    background: var(--inputs);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position: center left 15px;
-    border: none;
-    border-radius: 1vh;
-    padding: 1.5vh 1.5vh 1.5vh 60px;
-    font-size: 1.1rem;
-    outline: none;
-}
-.inputField:focus{    
-    border-bottom: 2px solid var(--principal);
-}
-.contBtn{
-    width: 100%;
-}
-.email{
-    background-image: url('../assets/images/icons/Email.png');
-}
-.pass{
-    background-image: url('../assets/images/icons/Password.png');
-}
-.route{
-    background-image: url('../assets/images/icons/Route.png');
-}
-.name{
-    background-image: url('../assets/images/icons/Name.png');
-}
-.tel{
-    background-image: url('../assets/images/icons/Tel.png');
-}
-.address{
-    background-image: url('../assets/images/icons/Address.png');
-}
-.category{
-    background-image: url('../assets/images/icons/Category.png');
-}
-.money{
-    background-image: url('../assets/images/icons/Money.png');
-}
-.role{
-    background-image: url('../assets/images/icons/Role.png');
-}
-.document {
-    background-image: url('../assets/images/icons/Document.png');
-}
-.product {
-    background-image: url('../assets/images/icons/Product.png');
-}
-.cant {
-    background-image: url('../assets/images/icons/Cant.png');
-}
-.reason {
-    background-image: url('../assets/images/icons/Reason.png');
-} */
-
 /* Estilos de Footer */
 .footer{
     width: 100%;
@@ -292,43 +182,52 @@
     bottom: 12px;
     right: 12px;
 }
-.toast-info{
-    background: #2aa3c3;
-    background-image: url('../assets/images/toastr/Info.png');
-}
-.toast-success{
-    background: #129620;
-    background-image: url('../assets/images/toastr/Success.png');
-}
-.toast-error{
-    background: #c53002;
-    background-image: url('../assets/images/toastr/Error.png');
-}
-.toast-warning{
-    background: #ffaa00;
-    background-image: url('../assets/images/toastr/Warning.png');
-}
 .toast{
+    background: #fff;
     position: relative;
-    margin-bottom:6px;
-    padding: 15px 15px 15px 50px;
+    margin-top: 1rem;
+    margin-left: auto;
+    padding: 20px 30px 20px 65px;
     width: 300px;
-    border-radius: 1vh;
-    background-position: 15px;
+    border-radius: 2vh 2vh 0 2vh;
+    background-size: 35px;
     background-repeat: no-repeat;
-    background-size: 24px;
-    box-shadow: 0 0 8px #000;
-    color: #fff;
-    font-weight: 500;
+    background-position: 20px;
     pointer-events: auto;
     word-wrap: break-word;
+    transition: .6s;
 }
 .toast:hover{
-    box-shadow: 0 0 12px #999;
+    /* box-shadow: 0 0 12px #999; */
+    width: 320px;
     cursor: pointer;
 }
-.toast > b{
+.toast > .titleToast{
     display: block;
     font-size: 1.1rem;
-    text-shadow: 1px 1px 1px #000;
+    font-weight: 900;
+}
+.toast-success{
+    color: #06853C;
+    box-shadow: 0 0 20px #06853C99;
+    border: 1px solid #06853C99;
+    background-image: url('../assets/images/toastr/Success.svg');
+}
+.toast-error{
+    color: #D62D30;
+    box-shadow: 0 0 20px #D62D3099;
+    border: 1px solid #D62D3099;
+    background-image: url('../assets/images/toastr/Error.svg');
+}
+.toast-warning{
+    color: #F57438;
+    box-shadow: 0 0 20px #F5743899;
+    border: 1px solid #F5743899;
+    background-image: url('../assets/images/toastr/Warning.svg');
+}
+.toast-info{
+    color: #1D81BC;
+    box-shadow: 0 0 20px #1D81BC99;
+    border: 1px solid #1D81BC99;
+    background-image: url('../assets/images/toastr/Info.svg');
 }
