@@ -180,7 +180,7 @@ $('#btnMenu').click( () => {
     
     if ($('#menu').css('display') == 'none') {
         
-        $('#btnMenu').css('rotate', '270deg');
+        $('#btnMenu').css('transform', 'rotate(270deg)');
         
         $('#menu').show();
         
@@ -193,7 +193,8 @@ $('#btnMenu').click( () => {
         
     } else {
         
-        $('#btnMenu').css('rotate', '0deg');
+        $('#btnMenu').css('transform', 'rotate(0deg)');
+
         setTimeout(() => {
             
             $('#btnMenu').css('background-image', 'url("../assets/images/menu/MenuOff.svg")');
