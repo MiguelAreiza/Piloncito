@@ -217,22 +217,22 @@ $('#language').click( (e) => {
     
     if (sessionStorage.language == 'ES' || !sessionStorage.language) {
 
-        e.target.src = './assets/images/LanguageEN.png';
+        e.target.src = './assets/images/language/LanguageEN.svg';
 
         let lib = new google.translate.TranslateService();
         lib.translatePage('es', 'en', function () {});
 
-        toastr.Success('Translate to english');
+        toastr.Success('Translate to english', null, 3000);
         sessionStorage.setItem('language', 'EN');
         
     } else {
         
-        e.target.src = './assets/images/LanguageES.png';
+        e.target.src = './assets/images/language/LanguageES.svg';
         
         let lib = new google.translate.TranslateService();
         lib.translatePage('en', 'es', function () {});
         
-        toastr.Success('Traducción a español');
+        toastr.Success('Traducción a español', null, 3000);
         sessionStorage.setItem('language', 'ES');
 
     }

@@ -76,9 +76,9 @@ body::-webkit-scrollbar{
     background: transparent;
     background-image: url('../assets/images/menu/MenuOff.svg');
     background-repeat: no-repeat;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
+    background-size: 45px;
+    width: 45px;
+    height: 45px;
     border: none;
     cursor: pointer;
     transition: transform .6s ease-out;
@@ -102,23 +102,30 @@ body::-webkit-scrollbar{
     margin: auto;
     background: transparent;
     color: var(--principal);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     text-transform: capitalize;
     border: none;
-    border-bottom: 2px solid #00000080;
-    padding: 3vh 1vh;
+    border-bottom: 2px dashed #00000030;
+    padding: 2vh 1vh;
+}
+.optMenu:hover{
+    color: var(--optRed);
+}
+.optMenu:nth-child(5){
+    border: none;
 }
 #menu > label{
     display: block;
     width: 100%;
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 1.4rem;
+    font-weight: 700;
     text-transform: capitalize;
-    margin: 8vh 0 3vh;
+    margin: 5vh 0 3vh;
     text-align: center;
 }
 #language{
+    width: 150px;
     display: block;
     margin: auto;
     transition: .6s;
