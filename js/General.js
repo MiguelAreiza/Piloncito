@@ -1,4 +1,5 @@
 'use strict';
+
 function Redirect() {
 
     this.Facebook = () => {
@@ -17,29 +18,29 @@ function Redirect() {
 
 function Toastr() {
 
-    this.Info = (mesagge, title) => { 
-        newMesagge(mesagge, title, 'toast-info');
+    this.Info = (mesagge, title, time) => {
+        newMesagge(mesagge, title, 'toast-info', time);
     }
 
-    this.Success = (mesagge, title) => {
-        newMesagge(mesagge, title, 'toast-success');
+    this.Success = (mesagge, title, time) => {
+        newMesagge(mesagge, title, 'toast-success', time);
     }
 
-    this.Error = (mesagge, title) => {
-        newMesagge(mesagge, title, 'toast-error');
+    this.Error = (mesagge, title, time) => {
+        newMesagge(mesagge, title, 'toast-error', time);
     }
 
-    this.Warning = (mesagge, title) => {
-        newMesagge(mesagge, title, 'toast-warning');
+    this.Warning = (mesagge, title, time) => {
+        newMesagge(mesagge, title, 'toast-warning', time);
     }
     
-    function newMesagge(mesagge, title, type, id = newId()) {
+    function newMesagge(mesagge, title, type, time = 5000, id = newId()) {
         
         let data = $('#notifications :last-child').html() || '';
 
         if (!data.includes(mesagge)) {
             
-            title ? title = `<b class="title">${title}</b>`: title = '';
+            title ? title = `<b class="titleToast">${title}</b>`: title = '';
 
             $('#notifications').append(`<div class="toast ${type}" id="${id}">${title}${mesagge}</div>`);
     
@@ -49,12 +50,38 @@ function Toastr() {
         
             setTimeout(() => {
                 $(`#${id}`).remove();
-            }, 7000);
+            }, time);
 
         }
 
     }   
 
+}
+
+function newId() {
+    
+    let Codigo = '';
+    
+    for (let i = 0; i < 3; i++) {   
+        
+        let str1, str2, str3, str4;
+        /*Generar numeros random de acuerdo al codigo ASCII y convertirlos*/
+        str1 = String.fromCharCode(Math.round((Math.random() * (57 - 48)) + 48));
+        str2 = String.fromCharCode(Math.round((Math.random() * (90 - 65)) + 65));
+        str3 = String.fromCharCode(Math.round((Math.random() * (122 - 97)) + 97));
+        str4 = String.fromCharCode(Math.round((Math.random() * (57 - 48)) + 48));    
+        
+        /*Integrarlo al codigo*/
+        Codigo += `${str1}${str2}${str3}${str4}`;
+        
+        if (i != 2) {
+            Codigo += `-`;
+        }
+        
+    }
+    
+    return Codigo;
+    
 }
 
 function GoLocation() {
@@ -67,6 +94,12 @@ function GoLocation() {
             
             $('body').html(await response.text());
 
+            setTimeout(() => {
+                
+                $('spinner').hide();
+
+            }, 300);
+
         }).catch(() => {
 
             toastr.Error('Error en la transaccion');
@@ -77,36 +110,10 @@ function GoLocation() {
 
 }
 
-function newId() {
-
-    let Codigo = '';
-
-    for (let i = 0; i < 3; i++) {   
-
-        let str1, str2, str3, str4;
-        /*Generar numeros random de acuerdo al codigo ASCII y convertirlos*/
-        str1 = String.fromCharCode(Math.round((Math.random() * (57 - 48)) + 48));
-        str2 = String.fromCharCode(Math.round((Math.random() * (90 - 65)) + 65));
-        str3 = String.fromCharCode(Math.round((Math.random() * (122 - 97)) + 97));
-        str4 = String.fromCharCode(Math.round((Math.random() * (57 - 48)) + 48));    
-
-        /*Integrarlo al codigo*/
-        Codigo += `${str1}${str2}${str3}${str4}`;
-
-        if (i != 2) {
-            Codigo += `-`;
-        }
-
-    }
-
-    return Codigo;
-
-}
-
 function ExecSp(spName) {
-
+    
     return new Promise((resolve, reject) => {
-
+        
         if (!spName) {
 
             return reject('Error en el parametro');
@@ -176,16 +183,22 @@ $('#btnMenu').click( () => {
         $('#btnMenu').css('rotate', '450deg');
         
         $('#menu').show();
-
+        
         setTimeout(() => {
             
             $('#menu').css({'height':'calc(100vh - 90px)'});
+            $('#btnMenu').css('background-image', 'url("../assets/images/menu/MenuOn.svg")');
 
         }, 100);
         
     } else {
         
         $('#btnMenu').css('rotate', '0deg');
+        setTimeout(() => {
+            
+            $('#btnMenu').css('background-image', 'url("../assets/images/menu/MenuOff.svg")');
+
+        }, 100);
 
         $('#menu').css({'height':'0'});
         

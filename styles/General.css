@@ -11,10 +11,13 @@
     --optYellow: #FEB91E;
     --inputs: #F0F0F0;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 /* Estilos del navbar */
 .navBar{
-    background: var(--secondary);
+    background: #F4F4F4EE;
     width: 100%;
     height: 90px;
     max-height: 90px;
@@ -41,6 +44,13 @@
     align-items: center;
     padding: 10px 0;
 }
+.rigth{
+    min-width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
 .imageLogo{
     height: 70px;
     cursor: pointer;
@@ -62,13 +72,6 @@
     color: var(--optRed);
     text-transform: uppercase;
 }
-.rigth{
-    min-width: 80px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  
 #btnMenu{
     background: transparent;
     background-image: url('../assets/images/menu/MenuOff.svg');
@@ -126,7 +129,8 @@
 
 /* Estilos del pagecontent */
 .pageContent{
-    background: var(--secondary);
+    background-image: url('../assets/images/Background.svg');
+    background-size: 100% auto;
     padding: calc(90px + 1rem) 1rem 1rem;
     min-height: calc(100vh - 120px);
 }
