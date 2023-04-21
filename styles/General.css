@@ -70,7 +70,7 @@
 }
 #btnMenu{
     background: transparent;
-    background-image: url('../assets/images/Menu.png');
+    background-image: url('../assets/images/menu/MenuOff.svg');
     background-repeat: no-repeat;
     background-size: 50px;
     width: 50px;
@@ -127,51 +127,76 @@
 .pageContent{
     background: var(--secondary);
     padding: calc(90px + 1rem) 1rem 1rem;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 120px);
 }
 
 /* Estilos de Footer */
 .footer{
     width: 100%;
-    height: 80px;
-    max-height: 80px;
+    height: 120px;
+    max-height: 120px;
     background: var(--principal);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.contactUs{
+.footer > div{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .left{
+    flex-wrap: wrap;
+}
+.footer > .left > img{
+    width: 70px;
+    margin: auto 0 1vh;
+    cursor: pointer;
+}
+.footer > .left > label{
+    display: block;
     width: 100%;
+    margin-bottom: auto;
+    color: #fff;
+    font-size: .6rem;
     text-align: center;
 }
+.footer > .center{
+    flex-wrap: wrap;
+}
+.footer > .center > .title{
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: auto;
+}
+.footer > .center > .subTitle{
+    text-align: center;
+    font-size: .7rem;
+    margin-bottom: auto;
+}
 .facebook, .instagram, .whatsApp{
-    background: transparent;
-    background-size: 30px;
-    border: none;
     width: 30px;
     height: 30px;
-    margin: 10px 5px 5px;
+    background: transparent;
+    border: none;
+    background-size: 30px;
+    margin: 3px;
+    cursor: pointer;
     transition: .6s;
 }
 .facebook{
-    background-image: url('../assets/images/contact/Facebook.png');    
+    background-image: url('../assets/images/contact/Facebook.svg');    
 }
 .instagram{
-    background-image: url('../assets/images/contact/Instagram.png');
+    background-image: url('../assets/images/contact/Instagram.svg');
 }
 .whatsApp{
-    background-image: url('../assets/images/contact/WhatsApp.png');
+    background-image: url('../assets/images/contact/Whatsapp.svg');
 }
 .facebook:hover, .instagram:hover, .whatsApp:hover{
     transform: scale(1.1);
-}
-.copyRight{
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    padding: 0 10px 5px;
 }
 
 /* Estilos de los toastr */
@@ -198,7 +223,6 @@
     transition: .6s;
 }
 .toast:hover{
-    /* box-shadow: 0 0 12px #999; */
     width: 320px;
     cursor: pointer;
 }

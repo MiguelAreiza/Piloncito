@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piloncito</title>
-    <link rel="shortcut icon" href="https://miguelareiza.github.io/Piloncito/assets/images/favicon.ico" type="image/x-icon">
+    <title>Piloncito</title> 
+    
+    <link rel="shortcut icon" href="https://piloncito.maddiapp.com/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://piloncito.maddiapp.com/assets/images/favicon.ico" type="image/x-icon">
+    
+    <meta name="keywords" content="piloncito, comida rapida, comida, salchipapas, hamburguesas, maicitos, chuzos, carnes">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="description" content="Restaurantes de comidas rapidas, con los mejores sabores de medellin en hamburguesas papas, maicitos y mas.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Piloncito - Las Playas">
+    <meta name="og:description" content="Desde nuestra pagina web podras ver nuestros productos para que no puedas resistirte y tengas que visitarnos, te esperamos.">
+    <meta property="og:image" content="https://piloncito.maddiapp.com/assets/images/Logo.svg">
+    <meta name="linkedin:title" content="Piloncito">
+    <meta name="linkedin:description" content="Desde nuestra pagina web podras ver nuestros productos para que no puedas resistirte y tengas que visitarnos, te esperamos.">
+    <meta name="linkedin:url" content="https://www.linkedin.com/company/maddiapp/" />
+    <meta name="linkedin:image" content="https://piloncito.maddiapp.com/assets/images/Logo.svg">
+    <meta name="linkedin:label1" content="Written by">
+    <meta name="linkedin:data1" content="MaddiApp">
+    <meta name="linkedin:site" content="@maddiapp">
+    <meta name="linkedin:creator" content="@maddiapp">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
     <script src="https://translate.google.com/translate_a/element.js?cb=gtElInit&amp;hl=es&amp;client=wt" type="text/javascript"></script>
+    <!-- <link rel="stylesheet" href="./styles/Spinner.css"> -->
 </head>
 <body>
+    <!-- <spinner>
+        <img src="./assets/images/spinner/Vector1.svg" alt="MaddiApp vector 1" draggable="false">
+        <img src="./assets/images/spinner/Vector2.svg" alt="MaddiApp vector 2" draggable="false">
+    </spinner> -->
     <div class="base">
-        <div class="navBar">
+        <nav class="navBar">
             <div class="left">
-                <img class="imageLogo" src="./assets/images/Logo.png" alt="Logo" draggable="false">
+                <img class="imageLogo" src="./assets/images/Logo.svg" alt="Logo" draggable="false">
             </div>
             <div class="center">
                 <label class="title">Piloncito</label>
-                <label class="subTitle">COMIDAS RAPIDAS</label>
+                <label class="subTitle">COMIDAS RÁPIDAS</label>
             </div>  
             <div class="rigth">
                 <button id="btnMenu"></button>
@@ -29,13 +56,14 @@
                     <button class="optMenu">Contacto</button>
                     <button class="optMenu">Administrador</button>
                     <label>Cambiar idioma</label>
-                    <img id="language" src="./assets/images/LanguageES.png" alt="idioma" draggable="false">
+                    <img id="language" src="./assets/images/language/LanguageES.svg" alt="idioma" draggable="false">
                 </div>
-            </div>            
-        </div>
-        <div class="pageContent">
+            </div> 
+        </nav>
+
+        <main class="pageContent">
             <div class="logo section">
-                <img src="./assets/images/Logo.png" alt="Logo Tio Lucho" draggable="false">
+                <img src="./assets/images/Logo.svg" alt="Logo piloncito" draggable="false">
             </div>
             <div class="banner section">
                 <label class="titleInfo">¿Cansado de cocinar?</label>
@@ -44,25 +72,31 @@
             <button class="btnLarge" id="btnStart">Ver la carta</button>
             <div class="address section">
                 <label class="titleInfo">NOS PUEDES ENCONTRAR FACILMENTE EN</label>
-                <img id="btnAddress" src="./assets/images/Mapa.png" title="Ir" alt="Mapa dirección" draggable="false">
+                <img id="btnAddress" src="./assets/images/Mapa.svg" title="Ir" alt="Mapa dirección" draggable="false">
                 <label class="miniInfo">Cra. 72 #18-00. Belén, Medellín, Antioquia</label>
             </div>
             <div class="contact section">
                 <label class="titleInfo">Nuestras lineas de contacto</label>
-                <img id="btnPhone" src="./assets/images/Phone.png" alt="Telefono" draggable="false">
+                <img id="btnPhone" src="./assets/images/Phone.svg" alt="Telefono" draggable="false">
                 <label class="miniInfo">Telefono: 311 317 52 29</label>
             </div>
-        </div>
-        <div class="footer">
-            <div class="contactUs">
+        </main>
+        
+        <footer class="footer">
+            <div class="left">                
+                <img src="./assets/images/LogoMaddiApp.svg" alt="Logo MaddiApp" draggable="false">
+                <label>&copy;Todos los derechos reservados</label>
+            </div>
+            <div class="center">
+                <label class="title">Piloncito</label>
+                <label class="subTitle">COMIDAS RÁPIDAS</label>                
+            </div>
+            <div class="rigth">
                 <button type="button" class="facebook"></button>
                 <button type="button" class="instagram"></button>
                 <button type="button" class="whatsApp"></button>
-            </div>
-            <div class="copyRight">
-                &#169 Miguel Areiza 2023 all rights reserved
-            </div>
-        </div>
+            </div>            
+        </footer>
     </div>
     <div id="notifications">
     </div>
