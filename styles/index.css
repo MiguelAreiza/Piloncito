@@ -31,18 +31,23 @@
 }
 .textCarta{
     padding: 0 1rem;
+    width: 100%;
 }
 .textCarta > h2{
+    max-width: 500px;
+    margin: auto;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
 }
 .textCarta > p{
+    margin: auto;
+    max-width: 500px;
     margin-top: 1vh;
     text-align: center;
     font-size: 1.1rem;
 }
-#btnCard{
+#btnStart{
     display: block;
     width: 250px;
     height: 50px;
@@ -56,9 +61,10 @@
     background-position: center right 10px;
     color: #fff;
     border-radius: 3vh;
+    cursor: pointer;
     transition: .6s;
 }
-#btnCard:hover{
+#btnStart:hover{
     transform: scale(1.1);
 }
 .address{
@@ -72,6 +78,7 @@
     width: 150px;
     margin-bottom: 1vh;
     transition: .6s;
+    cursor: pointer;
 }
 .address > img:hover{
     transform: scale(1.1);

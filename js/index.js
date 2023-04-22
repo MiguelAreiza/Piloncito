@@ -33,19 +33,13 @@ $(document).ready( () => {
 
     $('#btnStart').click( () => {
 
-        goLocation.ChangeView('');   
+        goLocation.ChangeView('./views/carta/');   
         
     });
 
     $('#btnAddress').click( () => {
 
         window.open('https://goo.gl/maps/hKVzFUnwRDgC98269');
-        
-    });
-
-    $('#btnPhone').click( () => {
-
-        window.open('tel:3113175229');
         
     });
 
