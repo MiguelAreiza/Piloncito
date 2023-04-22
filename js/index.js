@@ -18,7 +18,7 @@ $(document).ready( () => {
 
             images.forEach((image) => {
                 const imageLeft = image.offsetLeft - slider.offsetLeft;
-                const imageCenter = imageLeft + image.offsetWidth / 2 + 180;
+                const imageCenter = imageLeft + image.offsetWidth / 2 + 90;
 
                 if (imageCenter > scrollLeft + halfWidth && imageCenter < scrollLeft + halfWidth * 2) {
                     // la imagen está en el centro del slider
