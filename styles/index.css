@@ -63,9 +63,23 @@
 }
 .address{
     display: flex;
+    margin: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.address > img{
+    width: 150px;
+    margin-bottom: 1vh;
+    transition: .6s;
+}
+.address > img:hover{
+    transform: scale(1.1);
+}
+.address > label{
+    display: block;
+    width: 100%;
+    text-align: center;    
 }
 
 /* Responsive */
