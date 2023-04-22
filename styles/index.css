@@ -48,7 +48,7 @@
     height: 50px;
     font-size: 1.1rem;
     padding: 0 50px 0 20px;
-    margin: 2vh auto;
+    margin: 4vh auto;
     background: var(--principal);
     background-image: url("../assets/images/icons/ArrowRight.svg");
     background-repeat: no-repeat;
@@ -60,6 +60,12 @@
 }
 #btnCard:hover{
     transform: scale(1.1);
+}
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Responsive */

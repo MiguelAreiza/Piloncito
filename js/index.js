@@ -21,7 +21,6 @@ $(document).ready( () => {
                 const imageCenter = imageLeft + image.offsetWidth / 2 + 90;
 
                 if (imageCenter > scrollLeft + halfWidth && imageCenter < scrollLeft + halfWidth * 2) {
-                    // la imagen está en el centro del slider
                     image.classList.add('destacada');
                 } else {
                     image.classList.remove('destacada');
