@@ -176,7 +176,6 @@ $('.whatsApp').click( () => {
 });
 
 $('#btnMenu').click( () => {
-
     
     if ($('#menu').css('display') == 'none') {
         
@@ -187,7 +186,7 @@ $('#btnMenu').click( () => {
         setTimeout(() => {
             
             $('#menu').css({'height':'calc(100vh - 90px)'});
-            $('#btnMenu').css('background-image', 'url("../assets/images/menu/MenuOn.svg")');
+            $('#btnMenu').css('background-image', 'url("https://piloncito.maddiapp.com/assets/images/menu/MenuOn.svg")');
 
         }, 100);
         
@@ -197,7 +196,7 @@ $('#btnMenu').click( () => {
 
         setTimeout(() => {
             
-            $('#btnMenu').css('background-image', 'url("../assets/images/menu/MenuOff.svg")');
+            $('#btnMenu').css('background-image', 'url("https://piloncito.maddiapp.com/assets/images/menu/MenuOff.svg")');
 
         }, 100);
 
@@ -217,7 +216,7 @@ $('#language').click( (e) => {
     
     if (sessionStorage.language == 'ES' || !sessionStorage.language) {
 
-        e.target.src = './assets/images/language/LanguageEN.svg';
+        e.target.src = 'https://piloncito.maddiapp.com/assets/images/language/LanguageEN.svg';
 
         let lib = new google.translate.TranslateService();
         lib.translatePage('es', 'en', function () {});
@@ -227,7 +226,7 @@ $('#language').click( (e) => {
         
     } else {
         
-        e.target.src = './assets/images/language/LanguageES.svg';
+        e.target.src = 'https://piloncito.maddiapp.com/assets/images/language/LanguageES.svg';
         
         let lib = new google.translate.TranslateService();
         lib.translatePage('en', 'es', function () {});
