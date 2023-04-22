@@ -23,9 +23,10 @@
     width: 180px;
     margin: 0 10px;
     scroll-snap-align: center;
+    transition: .6s;
 }
 .slider > img.destacada {
-    width: 220px;
+    transform: scale(1.2);
 }
 
 /* Responsive */
