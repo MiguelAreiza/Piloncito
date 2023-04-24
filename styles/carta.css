@@ -23,7 +23,7 @@
     display: none;
 }
 .imagePromotion{
-    width: 180px;
+    width: 200px;
     margin: 0 15px;
     scroll-snap-align: center;
     transition: .6s;

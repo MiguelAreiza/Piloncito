@@ -18,7 +18,7 @@ $(document).ready( () => {
 
             images.forEach((image) => {
                 const imageLeft = image.offsetLeft - slider.offsetLeft;
-                const imageCenter = imageLeft + image.offsetWidth / 2 + 105;
+                const imageCenter = imageLeft + image.offsetWidth / 2 + 115;
 
                 if (imageCenter > scrollLeft + halfWidth && imageCenter < scrollLeft + halfWidth * 2) {
                     image.classList.add('destacada');
