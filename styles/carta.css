@@ -63,6 +63,7 @@
     border-radius: 5vh;
     border: 3px solid #000;
     background: #fff;
+    color: #000;
     scroll-snap-align: center;
     transition: .6s;
 }
