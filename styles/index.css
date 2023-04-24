@@ -59,6 +59,7 @@
     background-size: 30px;
     background-position: center right 10px;
     color: #fff;
+    border: none;
     border-radius: 3vh;
     cursor: pointer;
     transition: .6s;

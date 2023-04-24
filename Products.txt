@@ -1,0 +1,16 @@
+{
+    "Products":[
+        {
+            "categoria":"Hamburguesas",
+            "titulo":"HAMBURGUESA FILOSA",
+            "precio":"12.000",
+            "descripcion":"Sencilla con queso, tocineta y lechuga."
+        },
+        {
+            "categoria":"Hamburguesas",
+            "titulo":"HAMBURGUESA FILOSA + PAPAS",
+            "precio":"14.000",
+            "descripcion":"Sencilla con queso, tocineta, lechuga + papas."
+        }
+    ]
+}
