@@ -1,0 +1,113 @@
+/* Estilos del pagecontent */
+.section{
+    width: 100%;
+    margin: 2vh 0;
+}
+.titleSection{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+.sliderPromotions{
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: both;
+}
+.sliderPromotions::-webkit-scrollbar{
+    display: none;
+}
+.imagePromotion{
+    width: 180px;
+    margin: 0 15px;
+    scroll-snap-align: center;
+    transition: .6s;
+}
+.sliderPromotions > img.destacada {
+    transform: scale(1.2);
+}
+.sliderOptions{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: both;
+}
+.sliderOptions::-webkit-scrollbar{
+    display: none;
+}
+.btnOptSection{
+    display: block;
+    padding: 1vh 3vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 10px;
+    border-radius: 5vh;
+    border: 3px solid #000;
+    background: #fff;
+    scroll-snap-align: center;
+    transition: .6s;
+}
+.btnOptSection:hover{
+    background: #0002;
+}
+.sliderOptions > button.optSelected{
+    background: #000;
+    color: #fff;
+}
+.sliderProducts{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: both;
+}
+.sliderProducts::-webkit-scrollbar{
+    display: none;
+}
+.cardProduct{
+    width: 200px;
+    margin: 0 10px;
+    padding: 15px;
+    background: #D9D9D9;
+    border-radius: 3vh;
+    scroll-snap-align: center;
+    transition: .6s;
+}
+.imageProduct{
+    width: 170px;
+}
+.detailsProduct{
+    width: 170px;
+    margin-top: 1vh;
+}
+.nameProduct{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.descriptionProduct{
+    margin: 1vh 0;    
+}
+.priceProduct{    
+    width: 100%;
+    margin-top: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 580px) {    
+    .sliderPromotions, .sliderOptions{
+        justify-content: left;
+    }
+}

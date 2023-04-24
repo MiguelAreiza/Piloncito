@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: calc(90px + 1rem) 0 1rem;
 }
 .slider{
     width: 100%;
