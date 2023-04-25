@@ -30,6 +30,161 @@ $(document).ready( () => {
         });
 
     }, 500);
+
+    $('#optNuevoOutstanding').click( (e) => {
+        
+        GetProducts('Nuevo', 'contProductsOutstanding', e);
+
+    });
+
+    $('#optPopularOutstanding').click( (e) => {
+
+        GetProducts('Popular', 'contProductsOutstanding', e);
+
+    });
+
+    $('#optAdicionesOutstanding').click( (e) => {
+
+        GetProducts('Adiciones', 'contProductsOutstanding', e);
+
+    });
+
+    $('#optHamburguesasFoods').click( (e) => {
+
+        GetProducts('Hamburguesas', 'contProductsFoods', e);
+
+    });
+
+    $('#optPerrosFoods').click( (e) => {
+
+        GetProducts('Perros', 'contProductsFoods', e);
+
+    });
+
+    $('#optMexicanaFoods').click( (e) => {
+
+        GetProducts('Mexicana', 'contProductsFoods', e);
+
+    });
+
+    $('#optCarnesFoods').click( (e) => {
+
+        GetProducts('Carnes y Chuzos', 'contProductsFoods', e);
+
+    });
+
+    $('#optSalchipapasFoods').click( (e) => {
+
+        GetProducts('Salchipapas', 'contProductsFoods', e);
+
+    });
+
+    $('#optPicadasFoods').click( (e) => {
+
+        GetProducts('Picadas', 'contProductsFoods', e);
+
+    });
+
+    $('#optArepasFoods').click( (e) => {
+
+        GetProducts('Arepas', 'contProductsFoods', e);
+
+    });
+
+    $('#optGaseosasDrinks').click( (e) => {
+
+        GetProducts('Gaseosas', 'contProductsDrinks', e);
+
+    });
+
+    $('#optJugosDrinks').click( (e) => {
+
+        GetProducts('Jugos', 'contProductsDrinks', e);
+
+    });
+
+    $('#optOtrasDrinks').click( (e) => {
+
+        GetProducts('Otras', 'contProductsDrinks', e);
+
+    });
+
+    function GetProducts(categorie, container, element) {
+
+        $('spinner').show();
+
+        fetch("../../Products.txt", {
+            method: 'GET'
+
+        }).then(async response => {
+
+            let data = await response.json();
+
+            let filteredProducts = data.Products.filter(product => product.categoria === categorie);
+
+            if (!filteredProducts.length) {
+                throw new Error('.');
+            }
+
+            let html = ``;
+
+            filteredProducts.map( (product) => {
+
+                html += `<div class="cardProduct">
+                            <img class="imageProduct" src="../../assets/images/foods/Food1.svg" alt="Foto ${product.titulo}" draggable="false">
+                            <div class="detailsProduct">
+                                <label class="nameProduct">${product.titulo}</label>
+                                <p class="descriptionProduct">${product.descripcion}</p>
+                                <label class="priceProduct">$${product.precio}</label>
+                            </div>
+                        </div>`;
+
+            });
+            
+            const box = $(`#${container}`);
+
+            box.html(html);
+
+            if (box[0].scrollWidth > box[0].clientWidth) {
+
+                box.css('justify-content', 'left');
+
+            } else {
+
+                box.css('justify-content', 'center');
+
+            }
+
+            const parent = element.target.parentElement;
+            
+            for (let i = 0; i < parent.children.length; i++) {
+
+                parent.children[i].classList.remove('optSelected');
+
+            }
+
+            element.target.classList.add('optSelected');
+
+            
+            setTimeout(() => {                
+                $('spinner').hide();
+            }, 200);
+
+        }).catch(error => {
+            console.log(error);
+            
+            setTimeout(() => {                
+                $('spinner').hide();
+            }, 200);
+            toastr.Warning('No existen productos para esta categoria', null, 4000);
+
+        });
+
+    }
+
+    $('#optAdicionesOutstanding').click();
+    $('#optHamburguesasFoods').click();
+    $('#optGaseosasDrinks').click();
     
     $(window).on('load', () => {
 

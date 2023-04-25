@@ -99,7 +99,7 @@
 }
 .cardProduct{
     width: 200px;
-    margin: 0 10px;
+    margin: 0 10px auto;
     padding: 15px;
     background: #D9D9D9;
     border-radius: 3vh;
@@ -108,20 +108,35 @@
 }
 .imageProduct{
     width: 170px;
+    height: 150px;
 }
 .detailsProduct{
     width: 170px;
-    margin-top: 1vh;
+    min-height: 110px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .nameProduct{
+    display: block;
     width: 100%;
+    max-height: 50px;
+    overflow: hidden;
     font-size: 1.2rem;
     font-weight: 700;
 }
 .descriptionProduct{
-    margin: 1vh 0;    
+    overflow: hidden;
+    margin-bottom: 1vh;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    cursor: pointer; 
+}
+.descriptionProduct:hover, .descriptionProduct:active{
+    white-space: normal;
 }
 .priceProduct{    
+    display: block;
     width: 100%;
     margin-top: auto;
     font-size: 1.5rem;
