@@ -382,21 +382,21 @@
             "categoria":"Adiciones",
             "titulo":"PORCION DE HUEVO",
             "descripcion":".",
-            "precio":"4.000",
+            "precio":"4.500",
             "imagen":"../assets/images/foods/Food1.svg"
         },
         {
             "categoria":"Adiciones",
             "titulo":"PORCION DE TOCINETA",
             "descripcion":".",
-            "precio":"4.000",
+            "precio":"4.500",
             "imagen":"../assets/images/foods/Food1.svg"
         },
         {
             "categoria":"Adiciones",
             "titulo":"PORCION DE QUESO",
             "descripcion":".",
-            "precio":"4.000",
+            "precio":"4.500",
             "imagen":"../assets/images/foods/Food1.svg"
         }
     ]
