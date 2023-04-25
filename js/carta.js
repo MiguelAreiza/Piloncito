@@ -131,7 +131,7 @@ $(document).ready( () => {
             filteredProducts.map( (product) => {
 
                 html += `<div class="cardProduct">
-                            <img class="imageProduct" src="../../assets/images/foods/Food1.svg" alt="Foto ${product.titulo}" draggable="false">
+                            <img class="imageProduct" src="${product.imagen}" alt="Foto ${product.titulo}" draggable="false">
                             <div class="detailsProduct">
                                 <label class="nameProduct">${product.titulo}</label>
                                 <p class="descriptionProduct">${product.descripcion}</p>
@@ -176,6 +176,7 @@ $(document).ready( () => {
             setTimeout(() => {                
                 $('spinner').hide();
             }, 200);
+
             toastr.Warning('No existen productos para esta categoria', null, 4000);
 
         });

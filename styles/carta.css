@@ -152,3 +152,11 @@
         display: none;
     }
 }
+@media (min-width: 900px) {
+    .imagePromotion{
+        width: 350px;
+    }
+    .sliderPromotions > img.destacada {
+        transform: scale(1);
+    }
+}
