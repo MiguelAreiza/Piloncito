@@ -33,7 +33,7 @@ $(document).ready( () => {
 
     $('#btnStart').click( () => {
 
-        goLocation.ChangeView('./views/carta/');   
+        goLocation.ChangeView('./carta/');   
         
     });
 
@@ -41,6 +41,18 @@ $(document).ready( () => {
 
         window.open('https://goo.gl/maps/hKVzFUnwRDgC98269');
         
+    });    
+
+    $('#optMenuInicio, .imageLogo').click( () => {
+        
+        goLocation.ChangeView('./');
+
+    });
+
+    $('#optMenuCarta').click( () => {
+        
+        goLocation.ChangeView('./carta/');
+
     });
 
     $(window).on('load', () => {

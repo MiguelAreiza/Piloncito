@@ -185,7 +185,19 @@ $(document).ready( () => {
 
     $('#optAdicionesOutstanding').click();
     $('#optHamburguesasFoods').click();
-    $('#optGaseosasDrinks').click();
+    $('#optGaseosasDrinks').click();       
+
+    $('#optMenuInicio, .imageLogo').click( () => {
+        
+        goLocation.ChangeView('../');
+
+    });
+
+    $('#optMenuCarta').click( () => {
+        
+        goLocation.ChangeView('./');
+
+    });
     
     $(window).on('load', () => {
 

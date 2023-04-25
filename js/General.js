@@ -3,15 +3,19 @@
 function Redirect() {
 
     this.Facebook = () => {
-        window.open('https://www.facebook.com/miguelangel.areizaberrio/');
+        window.open('https://www.facebook.com/');
     }
 
     this.Instagram = () => {
-        window.open('https://www.instagram.com/areizam11/');
+        window.open('https://www.instagram.com/piloncito_belenlasplayas/?igshid=YmMyMTA2M2Y%3D');
     }
 
     this.WhatsApp = () => {
-        window.open('https://api.whatsapp.com/send?phone=573245026814&text=¡Quiero cotizar un producto digital!');        
+        window.open('https://api.whatsapp.com/send?phone=573113175229&text=¡Vi su delicioso menu desde la carta digital!');        
+    }
+
+    this.MaddiApp = () => {
+        window.open('https://maddiapp.com');        
     }
     
 }
@@ -164,15 +168,19 @@ var goLocation = new GoLocation();
 var getUser = new GetUser();
 
 $('.facebook').click( () => {
-    redirect.Facebook()
+    redirect.Facebook();
 });
 
 $('.instagram').click( () => {
-    redirect.Instagram()
+    redirect.Instagram();
 });
 
 $('.whatsApp').click( () => {
-    redirect.WhatsApp()
+    redirect.WhatsApp();
+});
+
+$('#btnMaddiApp').click( () => {
+    redirect.MaddiApp();
 });
 
 $('#btnMenu').click( () => {

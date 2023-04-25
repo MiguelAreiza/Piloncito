@@ -107,6 +107,7 @@ body::-webkit-scrollbar{
     border: none;
     border-bottom: 2px dashed #00000030;
     padding: 2vh 1vh;
+    cursor: pointer;
 }
 .optMenu:hover{
     color: var(--optRed);
