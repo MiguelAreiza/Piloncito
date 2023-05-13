@@ -6,7 +6,6 @@
 }
 :root{
     --principal: #000000;
-    --secondary: #F4F4F4;
     --optRed: #F2252E;
     --optYellow: #FEB91E;
     --inputs: #F0F0F0;
@@ -17,7 +16,7 @@ body::-webkit-scrollbar{
 
 /* Estilos del navbar */
 .navBar{
-    background: #F4F4F4EE;
+    background: #FFFE;
     width: 100%;
     height: 90px;
     max-height: 90px;
@@ -32,7 +31,7 @@ body::-webkit-scrollbar{
     min-width: 90px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 .center{
@@ -86,8 +85,9 @@ body::-webkit-scrollbar{
     display: none;
     width: 100%;
     height: 0;
+    padding-top: 2rem;
     max-height: calc(100vh - 90px);
-    background: var(--secondary);
+    background-color: #FFF;
     box-shadow: 0 10px 10px #00000040;
     position: fixed;
     top: 90px;
@@ -136,8 +136,6 @@ body::-webkit-scrollbar{
 
 /* Estilos del pagecontent */
 .pageContent{
-    background-image: url('../assets/images/Background.svg');
-    background-size: 100% auto;
     padding: calc(90px + 1rem) 0 1rem;
     min-height: calc(100vh - 120px);
 }

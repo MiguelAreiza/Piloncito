@@ -21,12 +21,14 @@
 }
 .slider > img{
     width: 180px;
-    margin: 0 10px;
+    height: 180px;
+    margin: 0 15px;
     scroll-snap-align: center;
     transition: .6s;
+    border-radius: 3vh;
 }
 .slider > img.destacada {
-    transform: scale(1.2);
+    box-shadow: 0 0 20px #0005;
 }
 .textCarta{
     padding: 0 1rem;

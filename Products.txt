@@ -5,175 +5,175 @@
             "titulo":"HAMBURGUESA SUPER ESPECIAL",
             "descripcion":"Pan, lechuga, tomate, cebolla, 3 carnes, mucha tocineta, mucho queso, ripio de papa, salsa de la casa, acompañada de papas a la francesa.",
             "precio":"19.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Hamburguesas",
             "titulo":"HAMBURGUESA ESPECIAL",
             "descripcion":"Pan, lechuga, tomate, cebolla, 2 carnes, tocineta, queso, ripio de papa, salsa de la casa, acompañada de papas a la francesa.",
             "precio":"18.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Hamburguesas",
             "titulo":"HAMBURGUESA TRIPLE PILONCITO",
             "descripcion":"Pan, lechuga, tomate, cebolla, 3 carnes, tocineta, queso, ripio de papa, salsa de la casa.",
             "precio":"11.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Hamburguesas",
             "titulo":"HAMBURGUESA DOBLE PILONCITO",
             "descripcion":"Pan, lechuga, tomate, cebolla, 2 carnes, tocineta, queso, ripio de papa, salsa de la casa.",
             "precio":"10.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Hamburguesas",
             "titulo":"HAMBURGUESA SENCILLA",
             "descripcion":"Pan, lechuga, tomate, cebolla, 1 carnes, tocineta, queso, ripio de papa, salsa de la casa.",
             "precio":"9.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Hamburguesas",
             "titulo":"HAMBURGUESA RANCHERA",
             "descripcion":"Pan, lechuga, tomate, cebolla, tocineta, queso, carne ranchera, ripio de papa, salsa de la casa, acompañada de papas a la francesa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO ESPECIAL",
             "descripcion":"Pan, salchicha zenú, mucha tocineta, ensalada de repollo, ripio de papa, mucho queso, huevo, salsa de la casa.",
             "precio":"14.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO ENTOCINETADO",
             "descripcion":"Pan, salchicha zenú, mucha tocineta, ensalada de repollo, ripio de papa, mucho queso, huevos, más tocineta, salsa de la casa.",
             "precio":"16.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO RANCHERO ESPECIAL",
             "descripcion":"Pan, salchicha súper ranchera, mucha tocineta, lechuga, ripio de papa, mucho queso, huevos, salsa de la casa.",
             "precio":"16.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO JUNIOR ESPECIAL",
             "descripcion":"Pan, salchicha zenú, tocineta, ensalada de repollo, ripio de papa, queso, salsa de la casa.",
             "precio":"12.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO RANCHERO SENCILLO",
             "descripcion":"Pan, salchicha ranchera, lechuga, ripio de papa, queso, salsa de la casa.",
             "precio":"12.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRO SENCILLO",
             "descripcion":"Pan, salchicha zenú, ensalada de repollo, ripio de papa, queso, salsa de la casa.",
             "precio":"11.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRA ESPECIAL",
             "descripcion":"Pan, mucha tocineta, ensalada de repollo, ripio de papa, mucho queso, huevos, salsa de la casa.",
             "precio":"15.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"PERRA PEQUEÑA",
             "descripcion":"Pan, tocineta, ensalada de repollo, ripio de papa, queso, huevos, salsa de la casa.",
             "precio":"12.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Perros",
             "titulo":"ZUNGA",
             "descripcion":"Pan, carne de hamburguesa, salchicha, tocineta, maiz, ensalada de repollo, ripio de papa, queso, huevo, salsa de la casa, acompañada de papas a la francesa.",
             "precio":"19.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA TRIFASICA",
             "descripcion":".",
             "precio":"27.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA SUPER ESPECIAL",
             "descripcion":".",
             "precio":"24.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA ESPECIAL",
             "descripcion":"Tortilla de queso, carne de cerdo, pollo en trozos, tocineta, maíz, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA MIXTA",
             "descripcion":"Tortilla, queso, carne de cerdo, pollo en trozos, tocineta, salsa de la casa.",
             "precio":"18.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA POLLO",
             "descripcion":"Tortilla, queso, pollo en trozos, tocineta, salsa de la casa.",
             "precio":"17.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA CARNE",
             "descripcion":"Tortilla, queso, carne de cerdo, tocineta, salsa de la casa.",
             "precio":"17.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA DE TOCINETA",
             "descripcion":"Tortilla, queso, mucha tocineta, salsa de la casa.",
             "precio":"17.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"QUESADILLA SOLO QUESO",
             "descripcion":"Tortilla, mucho queso, salsa de la casa.",
             "precio":"12.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"BURRITO",
             "descripcion":"Tortilla, lechuga, carne de cerdo, tocineta, pollo en trozos, maíz, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
             "titulo":"PAJITA",
             "descripcion":"Tortilla, lechuga, carne de cerdo, pollo en trozos, cebolla, queso, maíz, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Mexicana",
@@ -187,42 +187,42 @@
             "titulo":"MAÍZ SENCILLO",
             "descripcion":"Maíz, queso, papas a la francesa, salsa de la casa.",
             "precio":"17.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
             "titulo":"CARNE DE CERDO 250GR",
             "descripcion":"Lechuga, maíz, huevos, acompañada de papas a la francesa y arepa con queso.",
             "precio":"28.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
             "titulo":"SOLOMO 250GR",
             "descripcion":"Lechuga, maíz, huevos, acompañada de papas a la francesa y arepa con queso.",
             "precio":"28.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
             "titulo":"PUNTA DE ANCA 250GR",
             "descripcion":"Lechuga, maíz, huevos, acompañada de papas a la francesa y arepa con queso.",
             "precio":"28.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
             "titulo":"CHUZO DE POLLO ESPECIAL",
             "descripcion":"Lechuga, maíz, huevos, acompañado de papas a la francesa y arepa con queso.",
             "precio":"19.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
             "titulo":"CHUZO DE POLLO SENCILLO",
             "descripcion":"Lechuga, maíz, acompañado de arepa con queso.",
             "precio":"16.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Carnes y Chuzos",
@@ -236,84 +236,84 @@
             "titulo":"CHUZO DE CERDO SENCILLO",
             "descripcion":"Lechuga, maíz, acompañado de arepa con queso.",
             "precio":"17.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"SUPER ESPECIAL",
             "descripcion":".",
             "precio":"22.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"SALCHIPAPA ESPECIAL",
             "descripcion":"Salchica zenú, mucha tocineta, huevos, mucho queso, papas a la francesa, salsa de la casa, chorizo coctelero.",
             "precio":"16.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"SALCHIPAPA PEQUEÑA",
             "descripcion":"Salchica zenú, tocineta, huevos, queso, papas a la francesa, salsa de la casa, chorizo coctelero.",
             "precio":"12.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"SALCHIPAPA SENCILLA",
             "descripcion":"Salchica zenú, queso, papas a la francesa, salsa de la casa.",
             "precio":"11.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"SALCHIPOLLO",
             "descripcion":"Pollo en trozos, salchicha zenú, tocineta, queso, huevos, papas a la francesa, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"TOCIPAPAS",
             "descripcion":"Mucha tocineta, salchicha zenú, queso, huevos, papas a la francesa, salsa de la casa.",
             "precio":"19.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Salchipapas",
             "titulo":"DESGRANADO",
             "descripcion":"lechuga, maíz, pollo en trozos, tocineta, ripio de papa, queso, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Picadas",
             "titulo":"PEPITO",
             "descripcion":"Pollo, carne, tocineta, salchicha, maicitos, lechiga, papas a la frnacesa, arepa con queso, huevos.",
             "precio":"33.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Picadas",
             "titulo":"PICADA PEQUEÑA",
             "descripcion":"Pollo, carne, tocineta, salchicha, maicitos, lechiga, papas a la frnacesa, arepa con queso, huevos.",
             "precio":"38.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Picadas",
             "titulo":"PICADA MEDIANA",
             "descripcion":"Pollo, carne, tocineta, salchicha, maicitos, lechiga, papas a la frnacesa, arepa con queso, huevos.",
             "precio":"43.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Picadas",
             "titulo":"PICADA GRNADE",
             "descripcion":"Pollo, carne, tocineta, salchicha, maicitos, lechiga, papas a la frnacesa, arepa con queso, huevos.",
             "precio":"48.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Picadas",
@@ -327,21 +327,21 @@
             "titulo":"AREPA MIXTA",
             "descripcion":"Pollo en trozos, carne de cerdo, tocineta, salchicha zenú, maíz, queso, salsa de la casa.",
             "precio":"19.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Arepas",
             "titulo":"AREPA CON CARNE",
             "descripcion":"Carne de cerdo, tocineta, queso, salsa de la casa.",
             "precio":"17.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Arepas",
             "titulo":"AREPA CON POLLO",
             "descripcion":"Pollo en trozos, tocineta, queso, salsa de la casa.",
             "precio":"17.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Gaseosas",
@@ -390,28 +390,28 @@
             "titulo":"PORCION DE PAPAS",
             "descripcion":".",
             "precio":"7.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Adiciones",
             "titulo":"PORCION DE HUEVO",
             "descripcion":".",
             "precio":"4.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Adiciones",
             "titulo":"PORCION DE TOCINETA",
             "descripcion":".",
             "precio":"4.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         },
         {
             "categoria":"Adiciones",
             "titulo":"PORCION DE QUESO",
             "descripcion":".",
             "precio":"4.500",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/Ham.jpg"
         }
     ]
 }

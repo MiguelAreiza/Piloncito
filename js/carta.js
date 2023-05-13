@@ -170,27 +170,26 @@ $(document).ready( () => {
                 if (e.target.style.whiteSpace == 'nowrap') {
 
                     e.target.style.whiteSpace = 'normal'
+                    return;
 
-                } else {
-
-                    e.target.style.whiteSpace = 'nowrap'
-                    
                 }
+
+                e.target.style.whiteSpace = 'nowrap';
                 
             });
             
             setTimeout(() => {                
                 $('spinner').hide();
-            }, 200);
+            }, 100);
 
         }).catch(error => {
             console.log(error);
             
             setTimeout(() => {                
                 $('spinner').hide();
-            }, 200);
+            }, 100);
 
-            toastr.Warning('No existen productos para esta categoria', null, 4000);
+            toastr.Warning(`No existen productos para la categoria ${categorie.toLowerCase()}`, null, 4000);
 
         });
 

@@ -190,6 +190,7 @@ $('#btnMenu').click( () => {
         $('#btnMenu').css('transform', 'rotate(270deg)');
         
         $('#menu').show();
+        $('.navBar').css('background', '#FFF');
         
         setTimeout(() => {
             
@@ -213,6 +214,7 @@ $('#btnMenu').click( () => {
         setTimeout(() => {
             
             $('#menu').hide();
+            $('.navBar').css('background', '#FFFE');
 
         }, 1100);
 
