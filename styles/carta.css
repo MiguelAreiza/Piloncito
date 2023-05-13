@@ -109,6 +109,7 @@
 .imageProduct{
     width: 170px;
     height: 150px;
+    border-radius: 3vh;
 }
 .detailsProduct{
     width: 170px;

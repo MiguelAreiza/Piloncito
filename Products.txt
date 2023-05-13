@@ -180,7 +180,7 @@
             "titulo":"MAÍZ ESPECIAL",
             "descripcion":"Maíz, queso, pollo, tocineta, papas a la francesa, salsa de la casa.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/MaizEspecial.jpeg"
         },
         {
             "categoria":"Mexicana",
@@ -229,7 +229,7 @@
             "titulo":"CHUZO DE CERDO ESPECIAL",
             "descripcion":"Lechuga, maíz, huevos, acompañado de papas a la francesa y arepa con queso.",
             "precio":"20.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/ChuzoCerdoEspecial.jpeg"
         },
         {
             "categoria":"Carnes y Chuzos",
@@ -320,7 +320,7 @@
             "titulo":"PICADA EXTRA GRANDE",
             "descripcion":"Pollo, carne, tocineta, salchicha, maicitos, lechiga, papas a la frnacesa, arepa con queso, huevos.",
             "precio":"68.000",
-            "imagen":"../assets/images/foods/Food1.svg"
+            "imagen":"../assets/images/foods/PicadaExtraGrande.jpeg"
         },
         {
             "categoria":"Arepas",
