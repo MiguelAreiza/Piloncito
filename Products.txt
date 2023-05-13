@@ -345,31 +345,45 @@
         },
         {
             "categoria":"Gaseosas",
+            "titulo":"GASEOSA PERSONAL",
+            "descripcion":".",
+            "precio":"3.500",
+            "imagen":"../assets/images/drinks/Personal.jpg"
+        },
+        {
+            "categoria":"Gaseosas",
+            "titulo":"JUGOS HIT",
+            "descripcion":".",
+            "precio":"3.500",
+            "imagen":"../assets/images/drinks/Hit.jpg"
+        },
+        {
+            "categoria":"Gaseosas",
             "titulo":"GASEOSA 1.4L",
             "descripcion":".",
             "precio":"6.500",
-            "imagen":"../assets/images/drinks/Drink1.svg"
+            "imagen":"../assets/images/drinks/Grande.jpg"
         },
         {
             "categoria":"Jugos",
             "titulo":"EN AGUA",
             "descripcion":"Mango, mora, fresa, guanabana, maracuya.",
             "precio":"5.500",
-            "imagen":"../assets/images/drinks/Drink2.svg"
+            "imagen":"../assets/images/drinks/Jugo.jpg"
         },
         {
             "categoria":"Jugos",
             "titulo":"EN LECHE",
             "descripcion":"Mango, mora, fresa, guanabana, maracuya.",
             "precio":"6.500",
-            "imagen":"../assets/images/drinks/Drink2.svg"
+            "imagen":"../assets/images/drinks/Jugo.jpg"
         },
         {
             "categoria":"Jugos",
             "titulo":"MILO",
             "descripcion":".",
             "precio":"7.000",
-            "imagen":"../assets/images/drinks/Drink2.svg"
+            "imagen":"../assets/images/drinks/Milo.jpg"
         },
         {
             "categoria":"Adiciones",

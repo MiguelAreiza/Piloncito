@@ -165,6 +165,19 @@ $(document).ready( () => {
 
             element.target.classList.add('optSelected');
 
+            $('.descriptionProduct').click( (e) => {
+
+                if (e.target.style.whiteSpace == 'nowrap') {
+
+                    e.target.style.whiteSpace = 'normal'
+
+                } else {
+
+                    e.target.style.whiteSpace = 'nowrap'
+                    
+                }
+                
+            });
             
             setTimeout(() => {                
                 $('spinner').hide();

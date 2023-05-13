@@ -108,7 +108,7 @@
 }
 .imageProduct{
     width: 170px;
-    height: 150px;
+    height: 170px;
     border-radius: 3vh;
 }
 .detailsProduct{
@@ -132,9 +132,6 @@
     white-space: nowrap;
     text-overflow: ellipsis; 
     cursor: pointer; 
-}
-.descriptionProduct:hover, .descriptionProduct:active{
-    white-space: normal;
 }
 .priceProduct{    
     display: block;
